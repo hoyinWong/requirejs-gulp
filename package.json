@@ -1,0 +1,30 @@
+{
+  "name": "yy.com",
+  "version": "1.0.0",
+  "description": "yy.com website",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watchAll --name pc --sub trunk --ver remote",
+    "watch-pc": "gulp watchAll --name pc --sub trunk --ver remote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://code.yy.com/ent-FEteam/yy.com.git"
+  },
+  "keywords": [
+    "yy.com"
+  ],
+  "author": "ent-FEteam",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-requirejs-optimize": "^0.3.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
